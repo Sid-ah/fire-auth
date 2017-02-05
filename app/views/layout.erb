@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/css/normalize.css?app=skills">
+  <link rel="stylesheet" href="/css/application.css?app=skills">
+
+  <script src="https://www.gstatic.com/firebasejs/3.6.8/firebase.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/js/application.js?app=skills"></script>
+
+  <title></title>
+</head>
+<body>
+  <ul>
+    <li><a id='btnLogout' href=''>logout</a></li>
+    <li><a href="/users/new">signup</a></li>
+    <li><a href="/users/login">login</a></li>
+  </ul>
+  <%= yield %>
+</body>
+</html>
